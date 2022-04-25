@@ -19,8 +19,19 @@
   height: 40rem;
 }
 
-.song-name {
+.song {
+  position: absolute;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+}
 
+.song-name {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  width: 90px;
 }
 
 .song-artist {
